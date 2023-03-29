@@ -1,0 +1,295 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1E2026;
+    ;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #383940;
+}
+
+.corpo-principal {
+    width: 910px;
+    height: auto;
+    margin: 50px auto 0;
+}
+
+.container-img-produto {
+    /* Define o tamanho da box da imagem */
+    height: 400px;
+    width: 400px;
+}
+
+.imagem-produto {
+    /* Define que a imagem tem que ocupar toda a box */
+    height: 100%;
+    width: 100%;
+}
+
+.informacoes {
+    /* Define o tamanho e a posição da box das informações */
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 41px;
+    left: 48%;
+    top: -400px;
+
+}
+
+.informacoes h1 {
+    /* Define o estilo e a posição do texto das informações */
+    font-size: 24px;
+    color: #0074C9;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.produto {
+    /* Define o tamanho e a posição da box do produto */
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 54.46px;
+    left: 31%;
+    top: -345px;
+}
+
+.produto p {
+    /* Define o estilo e a posição do texto do produto */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: white;
+}
+
+.dono {
+    /* Define o tamanho e a posição da box do dono */
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 54.46px;
+    right: 20px;
+    ;
+    top: -300px;
+}
+
+.dono p {
+    /* Define o estilo e a posição do texto do dono */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+}
+
+.dono p strong {
+    /* Realça a palavra "dono" com uma cor diferente */
+    color: #0074C9;
+}
+
+.compra {
+    /* Define o tamanho e a posição da box da compra */
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 225px;
+    right: -48%;
+    bottom: 290px;
+    background-color: #1A1B1C;
+    border-radius: 35px;
+}
+
+.preco {
+    display: inline-block;
+}
+
+.preco-atual {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #0074C9;
+}
+
+.preco {
+    display: block;
+    width: 343.62px;
+    height: 38px;
+    text-align: center;
+    color: white;
+    margin: 12px auto 0;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    box-sizing: border-box;
+    border: 1px solid #0074C9;
+    filter: drop-shadow(0px 0px 24px rgba(253, 230, 63, 0.4));
+    border-radius: 28px;
+}
+
+.corpo-principal button {
+    /* Define o tamanho e a posição da box do botão */
+    text-align: center;
+    background-color: white;
+    position: relative;
+    margin: 12px 50px 0;
+    border-radius: 15px;
+    border-width: 0px;
+    width: 411px;
+    height: 66;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #0074C9;
+}
+
+.corpo-principal button:hover {
+    /* Define o estilo do botão quando o mouse estiver sobre ele */
+    background-color: #0074C9;
+    color: white;
+    font-size: 40px;
+}
+
+.corpo-principal button:active {
+    /* Define o estilo do botão quando o mouse estiver pressionado */
+    background-color: white;
+    color: #0074C9;
+}
+
+.container-descricao {
+    /* Define o tamanho e a posição da box da descrição */
+    display: inline-block;
+    width: 910px;
+    height: 211px;
+    background-color: #1A1B1C;
+    border-radius: 35px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 550px;
+}
+
+.titulo-descricao {
+    /* Define o tamanho e a posição do texto do título da descrição */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+    text-align: center;
+    color: #0074C9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto-descricao {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    padding: 0 36px 31px 41px;
+}
+
+.container-detalhes {
+    /* Define o tamanho e a posição da box dos detalhes */
+    display: inline-block;
+    width: 910px;
+    height: 189px;
+    background-color: #1A1B1C;
+    border-radius: 35px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 800px;
+}
+
+.container-detalhes div {
+    /* Espaça as divs do canto da box */
+    padding-left: 41px;
+}
+
+.titulo-detalhes {
+    /* Define o tamanho e a posição do texto do título dos detalhes */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 33px;
+    text-align: center;
+    color: #0074C9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.endereco-contrato {
+    margin-bottom: 15px;
+}
+
+.endereco-contrato p {
+    display: inline;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+#contrato {
+    color: #0074C9;
+}
+
+.id-token {
+    margin-bottom: 15px;
+}
+
+.id-token p {
+    display: inline;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+#valor-token {
+    color: #0074C9;
+}
+
+.chain p {
+    display: inline;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
